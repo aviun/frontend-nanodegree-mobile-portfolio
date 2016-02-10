@@ -13,7 +13,9 @@ The work done:
 1. CSS was inlined.
 2. Images were optimized.
 3. Google analytics script updated and async tag added
+
 See the website [here](http://aviun.github.io/frontend-nanodegree-mobile-portfolio/)
+
 And the Page Speed results [here](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Faviun.github.io%2Ffrontend-nanodegree-mobile-portfolio%2F)
 
 ####Part 2: Optimize Frames per Second in pizza.html
