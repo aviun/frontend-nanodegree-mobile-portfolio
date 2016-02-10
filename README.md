@@ -13,12 +13,20 @@ The work done:
 1. CSS was inlined.
 2. Images were optimized.
 3. Google analytics script updated and async tag added
+4. Link to print CSS was moved to the bottom of the page.
 
 See the website [here](http://aviun.github.io/frontend-nanodegree-mobile-portfolio/)
 
 And the Page Speed results [here](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Faviun.github.io%2Ffrontend-nanodegree-mobile-portfolio%2F)
 
 ####Part 2: Optimize Frames per Second in pizza.html
+
+The work done:
+
+1. The major bottleneck was found in updatePositions function. It was modified - calculation of position change was moved out of scope of the for loop.
+2. Removed redundant variables.
+3. querySelectorAll was replaced by getElementsByClassName.
+4. 
 
 To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
 
