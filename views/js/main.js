@@ -501,7 +501,7 @@ function updatePositions() {
 
   var positionCorrection = [];
   for (var j = 0; j < 5; j++) {
-    positionCorrection.push((Math.sin((document.body.scrollTop / 1250) + j)));
+    positionCorrection.push(Math.sin((document.body.scrollTop / 1250) + j));
   }
 
   for (var i = 0; i < items.length; i++) {
