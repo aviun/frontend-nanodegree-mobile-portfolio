@@ -1,10 +1,7 @@
 ## Website Performance Optimization portfolio project
 
-Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
-
-To get started, check out the repository, inspect the code,
-
-### Getting started
+Both source and production code can be found in the folder.
+Grunt was used to minify JS, CSS and HTML for production code.
 
 ####Part 1: Optimize PageSpeed Insights score for index.html
 
@@ -15,9 +12,9 @@ The work done:
 3. Google analytics script updated and async tag added
 4. Link to print CSS was moved to the bottom of the page and print attribute was added.
 
-See the website [here](http://aviun.github.io/frontend-nanodegree-mobile-portfolio/src)
+See the website [here](http://aviun.github.io/frontend-nanodegree-mobile-portfolio/dist)
 
-And the Page Speed results [here](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Faviun.github.io%2Ffrontend-nanodegree-mobile-portfolio%2Fsrc)
+And the Page Speed results [here](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Faviun.github.io%2Ffrontend-nanodegree-mobile-portfolio%2Fdist)
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
@@ -38,7 +35,7 @@ Resize pizza's time decreased:
 3. Changed px values to % in changePizzaSizes
 
 
-See the website [here](http://aviun.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html)
+See the website [here](http://aviun.github.io/frontend-nanodegree-mobile-portfolio/dist/views/pizza.html)
 
 
 
