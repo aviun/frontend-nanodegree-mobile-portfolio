@@ -24,8 +24,9 @@ Scrolling:
 
 1. The major bottleneck was found in updatePositions function. It was modified - calculation of position change was moved out of scope of the for loop.
 2. Removed redundant variables.
-3. querySelectorAll was replaced by getElementsByClassName.
+3. querySelectorAll was replaced by getElementsByClassName and document.querySelector() was replaced with faster document.getElementById.
 4. Mover class in CSS file was updated with transform property to push pizzas to another layer.
+5. Dynamic counter of moving pizzas was added.
 
 Resize pizza's time decreased:
 
