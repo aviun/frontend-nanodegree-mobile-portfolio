@@ -26,7 +26,9 @@ The work done:
 1. The major bottleneck was found in updatePositions function. It was modified - calculation of position change was moved out of scope of the for loop.
 2. Removed redundant variables.
 3. querySelectorAll was replaced by getElementsByClassName.
-4. 
+4. Improved changePizzaSizes function by moving repeated request to DOM outside the loop.
+
+See the website [here](http://aviun.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html)
 
 To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
 
