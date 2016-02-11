@@ -23,10 +23,18 @@ And the Page Speed results [here](https://developers.google.com/speed/pagespeed/
 
 The work done:
 
+Scrolling: 
+
 1. The major bottleneck was found in updatePositions function. It was modified - calculation of position change was moved out of scope of the for loop.
 2. Removed redundant variables.
 3. querySelectorAll was replaced by getElementsByClassName.
-4. Improved changePizzaSizes function by moving repeated request to DOM outside the loop.
+
+Resize pizza's time decreased:
+
+1. changePizzaSizes function was modified, removed dx variable and determineDx function.
+2. Repeated access to the DOM was moved out of the scope of the for loop.
+3. Changed px values to % in changePizzaSizes
+
 
 See the website [here](http://aviun.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html)
 
