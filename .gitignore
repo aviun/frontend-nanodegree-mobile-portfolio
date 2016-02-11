@@ -2,8 +2,8 @@
 ### Example user template
 
 # IntelliJ project files
-.idea
-*.iml
+../.idea
+.idea/frontend-nanodegree-mobile-portfolio.iml
 out
 gen
 node_modules
