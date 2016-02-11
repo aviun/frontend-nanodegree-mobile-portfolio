@@ -11,13 +11,13 @@ To get started, check out the repository, inspect the code,
 The work done:
 
 1. CSS was inlined.
-2. Images were optimized.
+2. Images (profilepic and pizzeria) were optimized.
 3. Google analytics script updated and async tag added
-4. Link to print CSS was moved to the bottom of the page.
+4. Link to print CSS was moved to the bottom of the page and print attribute was added.
 
-See the website [here](http://aviun.github.io/frontend-nanodegree-mobile-portfolio/)
+See the website [here](http://aviun.github.io/frontend-nanodegree-mobile-portfolio/src)
 
-And the Page Speed results [here](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Faviun.github.io%2Ffrontend-nanodegree-mobile-portfolio%2F)
+And the Page Speed results [here](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Faviun.github.io%2Ffrontend-nanodegree-mobile-portfolio%2Fsrc)
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
@@ -39,6 +39,9 @@ Resize pizza's time decreased:
 
 
 See the website [here](http://aviun.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html)
+
+
+
 
 To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
 
